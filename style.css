@@ -1,0 +1,309 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  
+    background-image: url(./back.jpeg); background-repeat: no-repeat   ;
+   background-position: center;
+   /* background-attachment: fixed; */
+   background-size: 100% 100%;
+}
+
+.birthday-container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+
+}
+
+
+
+.banner{
+    position: absolute;
+    width: 100%;
+    transform: translateY(48%);
+    z-index: 3;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.groupHa{
+    position: absolute;
+    /* display: flex; */
+    /* width: 200px; */
+    z-index: 1;
+    top: 0%;
+    
+}
+.groupHa img{
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+.banner img{
+    width: 100%;
+}
+
+
+.pofak{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    transition: all 7s ease;
+    animation: kamran 12s infinite;
+
+}
+
+.pofak1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 1;
+    transition: all 7s ease;
+    animation: kamran2 14s alternate;
+
+}
+
+.pofak2{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    z-index: 1;
+    transition: all 7s ease;
+    animation: kamran 10s alternate;
+
+}
+
+.pofak3{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    z-index: 1;
+    transition: all 7s ease;
+    animation: kamran2 7s alternate;
+
+}
+
+.pofak4{
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    z-index: 1;
+    transition: all 7s ease;
+    animation: kamran 11s alternate;
+
+}
+
+.pofak5{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    z-index: 1;
+    transition: all 7s ease;
+    animation: kamran2 9s infinite ;
+
+}
+@keyframes kamran2 {
+    0%{
+        top:100%
+    }
+    100%{
+        top: 5%;
+    }
+    
+}
+
+
+@keyframes kamran {
+    0%{ top:-10% }
+    100%{top: 100%}
+    
+}
+.birthday-image {
+    width: 100%;
+    height: auto;
+    border-radius: 30px 0px 0px 0px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+p {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.birthday-container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 90px 90px 0px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 470px;
+    width: 100%;
+    margin-left: 14px;
+}
+
+.birthday-image {
+    width: 90%;
+    height: auto;
+    border-radius: 90px 90px 10px 10px;
+}
+
+h1 {
+    color: #ff6600;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+#background-video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+     object-fit: cover;
+     z-index: -1;
+}
+
+
+@media (max-width:590px) {
+    .birthday-container{
+       
+      
+        /* background:linear-gradient(to right, white, rgba(255, 255, 255, 0.237)) ; */
+       
+        box-shadow: inset 20px 20px 20px rgba(255, 92, 236, 0.341),
+                         12px 12px 20px rgba(0, 0, 0, 0.243),
+                         25px 30px 30px rgba(12, 103, 152, 0.088),
+                         inset -20px -20px 25px rgba(201, 5, 255, 0.458);
+
+                         transform: translateY(25%);
+                         margin-right: 20px;
+    
+    width: 300px;
+    height: 400px;
+    
+       }
+
+       h3{
+        font-size: 18px;
+       }
+       p{
+        font-size: 16px;
+       }
+    
+    .birthday-image{
+        background: url(./123.jpg);
+    }
+
+    
+}
+
+@media (max-width:500px) {
+    .birthday-container{
+       
+      
+        /* background:linear-gradient(to right, white, rgba(255, 255, 255, 0.237)) ; */
+       
+       
+        box-shadow: inset 20px 20px 20px rgba(255, 92, 236, 0.341),
+                         12px 12px 20px rgba(0, 0, 0, 0.243),
+                         25px 30px 30px rgba(12, 103, 152, 0.088),
+                         inset -20px -20px 25px rgba(201, 5, 255, 0.458);
+
+
+                         transform: translateY(25%);
+                         margin-right: 20px;
+    
+    width: 300px;
+    height: 400px;
+    
+       }
+
+       h3{
+        font-size: 18px;
+       }
+       p{
+        font-size: 16px;
+       }
+    
+    .birthday-image{
+        background: url(./123.jpg);
+    }
+
+    
+}
+
+@media  (max-width:400px) {
+   
+
+    .birthday-container{
+       
+      
+        /* background:linear-gradient(to right, white, rgba(255, 255, 255, 0.237)) ; */
+       
+      
+        box-shadow: inset 20px 20px 20px rgba(255, 92, 236, 0.341),
+                         12px 12px 20px rgba(0, 0, 0, 0.243),
+                         25px 30px 30px rgba(12, 103, 152, 0.088),
+                         inset -20px -20px 25px rgba(201, 5, 255, 0.458);
+
+
+                         transform: translateY(25%);
+                         margin-right: 20px;
+    
+    width: 300px;
+    height: 450px;
+    
+       }
+
+       h3{
+        font-size: 18px;
+       }
+       p{
+        font-size: 16px;
+       }
+    
+    .birthday-image{
+        background: url(./123.jpg);
+    }
+    
+}
